@@ -1,0 +1,1350 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\doan cnpm lt\\Phongkham\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\shared\\_masterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\shared\\_masterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\baohiems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\baohiems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|d:\\doan cnpm lt\\phongkham\\phongkham\\controllers\\benhnhanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\controllers\\benhnhanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\benhnhans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\benhnhans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\home\\bn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\home\\bn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\controllers\\bacsiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\controllers\\bacsiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\controllers\\baohiemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\controllers\\baohiemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\controllers\\loginbncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\controllers\\loginbncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\controllers\\hoadonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\controllers\\hoadonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\models\\model2.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\models\\model2.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\controllers\\khoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\controllers\\khoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\content\\khoa.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\content\\khoa.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\content\\don.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\content\\don.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\content\\thanhtoan.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\content\\thanhtoan.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\content\\dangky.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\content\\dangky.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\content\\mystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\content\\mystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\scripts\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\scripts\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\home\\unauthorized.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\home\\unauthorized.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\home\\cn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\home\\cn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\thuocs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\thuocs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\controllers\\hosobenhanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\controllers\\hosobenhanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\thanhtoan\\successview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\thanhtoan\\successview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\thuocs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\thuocs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\hoadons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\hoadons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\donthuocs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\donthuocs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\shared\\_medicalrecordlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\shared\\_medicalrecordlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\lichkhams\\create1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\lichkhams\\create1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\lichkhams\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\lichkhams\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\lichkhams\\indexbs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\lichkhams\\indexbs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\lichkhams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\lichkhams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\xetnghiems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\xetnghiems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\thanhtoan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\thanhtoan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\khoas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\khoas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\hosobenhans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\hosobenhans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\benhnhans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\benhnhans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\bacsis\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\bacsis\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\donthuocs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\donthuocs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\lichkhams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\lichkhams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\hoadons\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\hoadons\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\content\\book.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\content\\book.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\dichvu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\dichvu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\xetnghiems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\xetnghiems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\controllers\\donthuocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\controllers\\donthuocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\shared\\_masterlayout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\shared\\_masterlayout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\bacsis\\medicalrecord.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\bacsis\\medicalrecord.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\bacsis\\personalinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\bacsis\\personalinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\hosobenhans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\hosobenhans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\loginbs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\loginbs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\content\\dangkidangnhai.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\content\\dangkidangnhai.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\loginbn\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\loginbn\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\lichkhams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\lichkhams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\models\\benhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\models\\benhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\models\\bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\models\\bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\shared\\patientlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\shared\\patientlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\thanhtoan\\failureview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\thanhtoan\\failureview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\controllers\\dichvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\controllers\\dichvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\models\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\models\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\models\\paypalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\models\\paypalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\controllers\\xetnghiemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\controllers\\xetnghiemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\hosobenhans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\hosobenhans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\hosobenhans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\hosobenhans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\hosobenhans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\hosobenhans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\xetnghiems\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\xetnghiems\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\xetnghiems\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\xetnghiems\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\xetnghiems\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\xetnghiems\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\khoas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\khoas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\lichkhams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\lichkhams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\lichkhams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\lichkhams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\bacsis\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\bacsis\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\bacsis\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\bacsis\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\bacsis\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\bacsis\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\khoas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\khoas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\khoas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\khoas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|D:\\doan cnpm lt\\Phongkham\\phongkham\\views\\khoas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7894DB-23D9-4FE5-8F4C-87A59A17F8F2}|Phongkham\\Phongkham.csproj|solutionrelative:phongkham\\views\\khoas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "dangky.css",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\dangky.css",
+              "RelativeDocumentMoniker": "Phongkham\\Content\\dangky.css",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\dangky.css",
+              "RelativeToolTip": "Phongkham\\Content\\dangky.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-02T07:51:17.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BN.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\BN.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\Home\\BN.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\BN.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\Home\\BN.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABAAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T07:51:17.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Test.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\Test.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\Home\\Test.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\Test.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\Home\\Test.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T07:51:17.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T01:06:47.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BACSIsController.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\BACSIsController.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Controllers\\BACSIsController.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\BACSIsController.cs",
+              "RelativeToolTip": "Phongkham\\Controllers\\BACSIsController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEsAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:51:16.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BENHNHANs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\BENHNHANs\\Create.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BENHNHANs\\Create.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\BENHNHANs\\Create.cshtml",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAAKgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T07:51:17.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BAOHIEMs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\BAOHIEMs\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BAOHIEMs\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\BAOHIEMs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T07:51:17.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_MasterLayout.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Shared\\_MasterLayout.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\Shared\\_MasterLayout.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Shared\\_MasterLayout.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\Shared\\_MasterLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T07:51:16.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BENHNHANsController.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\BENHNHANsController.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Controllers\\BENHNHANsController.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\BENHNHANsController.cs",
+              "RelativeToolTip": "Phongkham\\Controllers\\BENHNHANsController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAuwD0AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:51:17.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Phongkham\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:51:16.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginBNController.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\LoginBNController.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Controllers\\LoginBNController.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\LoginBNController.cs",
+              "RelativeToolTip": "Phongkham\\Controllers\\LoginBNController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAkwCQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:51:17.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HOADONsController.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\HOADONsController.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Controllers\\HOADONsController.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\HOADONsController.cs",
+              "RelativeToolTip": "Phongkham\\Controllers\\HOADONsController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAuwDgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T01:34:08.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "don.css",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\don.css",
+              "RelativeDocumentMoniker": "Phongkham\\Content\\don.css",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\don.css",
+              "RelativeToolTip": "Phongkham\\Content\\don.css",
+              "ViewState": "AQIAAD0AAAAAAAAAAADgv08AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-02T07:51:17.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BAOHIEMsController.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\BAOHIEMsController.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Controllers\\BAOHIEMsController.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\BAOHIEMsController.cs",
+              "RelativeToolTip": "Phongkham\\Controllers\\BAOHIEMsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:51:17.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T00:57:11.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Phongkham\\Models\\Model1.edmx",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Phongkham\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-10-30T03:33:28.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KHOA.css",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\KHOA.css",
+              "RelativeDocumentMoniker": "Phongkham\\Content\\KHOA.css",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\KHOA.css",
+              "RelativeToolTip": "Phongkham\\Content\\KHOA.css",
+              "ViewState": "AQIAAHcAAAAAAAAAAADgv4wAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-02T07:51:17.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KHOAsController.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\KHOAsController.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Controllers\\KHOAsController.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\KHOAsController.cs",
+              "RelativeToolTip": "Phongkham\\Controllers\\KHOAsController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAIwDIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:51:17.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model2.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Models\\Model2.edmx",
+              "RelativeDocumentMoniker": "Phongkham\\Models\\Model2.edmx",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Models\\Model2.edmx [Diagram1]",
+              "RelativeToolTip": "Phongkham\\Models\\Model2.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-10-30T03:33:37.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Web.config",
+              "RelativeDocumentMoniker": "Phongkham\\Web.config",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Web.config",
+              "RelativeToolTip": "Phongkham\\Web.config",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAHsAAAAdAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-02T07:51:17.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\Web.config",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Web.config",
+              "RelativeToolTip": "Phongkham\\Views\\Web.config",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-18T16:28:08.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "thanhtoan.css",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\thanhtoan.css",
+              "RelativeDocumentMoniker": "Phongkham\\Content\\thanhtoan.css",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\thanhtoan.css",
+              "RelativeToolTip": "Phongkham\\Content\\thanhtoan.css",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswGsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-02T07:51:17.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "script.js",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Scripts\\script.js",
+              "RelativeDocumentMoniker": "Phongkham\\Scripts\\script.js",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Scripts\\script.js",
+              "RelativeToolTip": "Phongkham\\Scripts\\script.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-02T07:51:17.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "mystyle.css",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\mystyle.css",
+              "RelativeDocumentMoniker": "Phongkham\\Content\\mystyle.css",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\mystyle.css",
+              "RelativeToolTip": "Phongkham\\Content\\mystyle.css",
+              "ViewState": "AQIAANoBAAAAAAAAAAAAAFIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-02T07:51:17.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T00:57:38.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Unauthorized.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\Unauthorized.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\Home\\Unauthorized.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\Unauthorized.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\Home\\Unauthorized.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T00:57:49.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CN.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\CN.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\Home\\CN.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\CN.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\Home\\CN.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T07:51:17.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\XETNGHIEMs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\XETNGHIEMs\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\XETNGHIEMs\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\XETNGHIEMs\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\THUOCs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\THUOCs\\Create.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\THUOCs\\Create.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\THUOCs\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T07:51:16.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SuccessView.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\ThanhToan\\SuccessView.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\ThanhToan\\SuccessView.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\ThanhToan\\SuccessView.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\ThanhToan\\SuccessView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:16.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T07:51:17.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HOSOBENHANsController.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\HOSOBENHANsController.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Controllers\\HOSOBENHANsController.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\HOSOBENHANsController.cs",
+              "RelativeToolTip": "Phongkham\\Controllers\\HOSOBENHANsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:51:16.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\LICHKHAMs\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\LICHKHAMs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IndexBS.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\IndexBS.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\LICHKHAMs\\IndexBS.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\IndexBS.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\LICHKHAMs\\IndexBS.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index1.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Index1.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\LICHKHAMs\\Index1.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Index1.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\LICHKHAMs\\Index1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\THUOCs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\THUOCs\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\THUOCs\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\THUOCs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\DONTHUOCs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\DONTHUOCs\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\DONTHUOCs\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\DONTHUOCs\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOADONs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\HOADONs\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOADONs\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\HOADONs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_MedicalRecordLayout.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Shared\\_MedicalRecordLayout.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\Shared\\_MedicalRecordLayout.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Shared\\_MedicalRecordLayout.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\Shared\\_MedicalRecordLayout.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAGUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create1.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Create1.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\LICHKHAMs\\Create1.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Create1.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\LICHKHAMs\\Create1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\ThanhToan\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\ThanhToan\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\ThanhToan\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\ThanhToan\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\KHOAs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\KHOAs\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\KHOAs\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\KHOAs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOSOBENHANs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\HOSOBENHANs\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOSOBENHANs\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\HOSOBENHANs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BENHNHANs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\BENHNHANs\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BENHNHANs\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\BENHNHANs\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BACSIs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\BACSIs\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BACSIs\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\BACSIs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOADONs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\HOADONs\\Create.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOADONs\\Create.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\HOADONs\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\DONTHUOCs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\DONTHUOCs\\Create.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\DONTHUOCs\\Create.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\DONTHUOCs\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "book.css",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\book.css",
+              "RelativeDocumentMoniker": "Phongkham\\Content\\book.css",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\book.css",
+              "RelativeToolTip": "Phongkham\\Content\\book.css",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAowJgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-02T07:51:17.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\LICHKHAMs\\Create.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Create.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\LICHKHAMs\\Create.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\DichVu\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\DichVu\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\DichVu\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\DichVu\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACgAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\XETNGHIEMs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\XETNGHIEMs\\Create.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\XETNGHIEMs\\Create.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\XETNGHIEMs\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswCgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "_Masterlayout2.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Shared\\_Masterlayout2.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\Shared\\_Masterlayout2.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Shared\\_Masterlayout2.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\Shared\\_Masterlayout2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DONTHUOCsController.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\DONTHUOCsController.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Controllers\\DONTHUOCsController.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\DONTHUOCsController.cs",
+              "RelativeToolTip": "Phongkham\\Controllers\\DONTHUOCsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:51:17.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Medicalrecord.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BACSIs\\Medicalrecord.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\BACSIs\\Medicalrecord.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BACSIs\\Medicalrecord.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\BACSIs\\Medicalrecord.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PersonalInformation.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BACSIs\\PersonalInformation.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\BACSIs\\PersonalInformation.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BACSIs\\PersonalInformation.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\BACSIs\\PersonalInformation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOSOBENHANs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\HOSOBENHANs\\Create.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOSOBENHANs\\Create.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\HOSOBENHANs\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LoginBS\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\LoginBS\\Index.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LoginBS\\Index.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\LoginBS\\Index.cshtml",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAAAIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "dangkidangnhai.css",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\dangkidangnhai.css",
+              "RelativeDocumentMoniker": "Phongkham\\Content\\dangkidangnhai.css",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Content\\dangkidangnhai.css",
+              "RelativeToolTip": "Phongkham\\Content\\dangkidangnhai.css",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAQwKAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-02T07:51:17.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "View.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LoginBN\\View.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\LoginBN\\View.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LoginBN\\View.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\LoginBN\\View.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\LICHKHAMs\\Edit.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Edit.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\LICHKHAMs\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "BENHNHAN.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Models\\BENHNHAN.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Models\\BENHNHAN.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Models\\BENHNHAN.cs",
+              "RelativeToolTip": "Phongkham\\Models\\BENHNHAN.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-10-02T07:51:17.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "BACSI.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Models\\BACSI.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Models\\BACSI.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Models\\BACSI.cs",
+              "RelativeToolTip": "Phongkham\\Models\\BACSI.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-10-02T07:51:17.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "PatientLayout.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Shared\\PatientLayout.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\Shared\\PatientLayout.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\Shared\\PatientLayout.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\Shared\\PatientLayout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "FailureView.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\ThanhToan\\FailureView.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\ThanhToan\\FailureView.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\ThanhToan\\FailureView.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\ThanhToan\\FailureView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "DichVuController.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\DichVuController.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Controllers\\DichVuController.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\DichVuController.cs",
+              "RelativeToolTip": "Phongkham\\Controllers\\DichVuController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:51:17.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ThongTin.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Models\\ThongTin.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Models\\ThongTin.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Models\\ThongTin.cs",
+              "RelativeToolTip": "Phongkham\\Models\\ThongTin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:51:17.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "PaypalConfiguration.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Models\\PaypalConfiguration.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Models\\PaypalConfiguration.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Models\\PaypalConfiguration.cs",
+              "RelativeToolTip": "Phongkham\\Models\\PaypalConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:51:17.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "XETNGHIEMsController.cs",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\XETNGHIEMsController.cs",
+              "RelativeDocumentMoniker": "Phongkham\\Controllers\\XETNGHIEMsController.cs",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Controllers\\XETNGHIEMsController.cs",
+              "RelativeToolTip": "Phongkham\\Controllers\\XETNGHIEMsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:51:17.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOSOBENHANs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\HOSOBENHANs\\Edit.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOSOBENHANs\\Edit.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\HOSOBENHANs\\Edit.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOSOBENHANs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\HOSOBENHANs\\Details.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOSOBENHANs\\Details.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\HOSOBENHANs\\Details.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOSOBENHANs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\HOSOBENHANs\\Delete.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\HOSOBENHANs\\Delete.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\HOSOBENHANs\\Delete.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\XETNGHIEMs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\XETNGHIEMs\\Edit.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\XETNGHIEMs\\Edit.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\XETNGHIEMs\\Edit.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\XETNGHIEMs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\XETNGHIEMs\\Delete.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\XETNGHIEMs\\Delete.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\XETNGHIEMs\\Delete.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\XETNGHIEMs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\XETNGHIEMs\\Details.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\XETNGHIEMs\\Details.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\XETNGHIEMs\\Details.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\KHOAs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\KHOAs\\Create.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\KHOAs\\Create.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\KHOAs\\Create.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\LICHKHAMs\\Details.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Details.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\LICHKHAMs\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\LICHKHAMs\\Delete.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\LICHKHAMs\\Delete.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\LICHKHAMs\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BACSIs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\BACSIs\\Edit.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BACSIs\\Edit.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\BACSIs\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BACSIs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\BACSIs\\Details.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BACSIs\\Details.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\BACSIs\\Details.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BACSIs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\BACSIs\\Delete.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\BACSIs\\Delete.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\BACSIs\\Delete.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\KHOAs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\KHOAs\\Edit.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\KHOAs\\Edit.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\KHOAs\\Edit.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAuwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\KHOAs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\KHOAs\\Details.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\KHOAs\\Details.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\KHOAs\\Details.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\KHOAs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Phongkham\\Views\\KHOAs\\Delete.cshtml",
+              "ToolTip": "D:\\doan cnpm lt\\Phongkham\\Phongkham\\Views\\KHOAs\\Delete.cshtml",
+              "RelativeToolTip": "Phongkham\\Views\\KHOAs\\Delete.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-10-02T07:51:17.487Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

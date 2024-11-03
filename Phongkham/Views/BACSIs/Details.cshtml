@@ -1,0 +1,91 @@
+﻿@model Phongkham.Models.BACSI
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BACSI</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GioiTinhBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GioiTinhBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiaChiBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiaChiBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NamSinhBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NamSinhBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CCCDBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CCCDBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PasswordBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PasswordBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KHOA.TenKhoa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KHOA.TenKhoa)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaBS }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

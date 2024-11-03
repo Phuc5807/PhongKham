@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="~/Content/mystyle.css" rel="stylesheet" />
+    <style>
+       .notification
+       {
+           width:400px;
+           height:auto;
+           background-color:turquoise;
+       }
+    </style>
+</head>
+<body>
+    <div class="notification"></div>
+     @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    <header class="header">
+        <a href="@Url.Action("Test", "Home")" class="logo"><i class="fas fa-heartbeat"></i><span>VTPG</span></a>
+        <nav class="navbar">
+            <a href="@Url.Action("Test", "Home")">Trang chủ</a>
+            <a href="#service">Service</a>
+            <a href="#review">Đánh giá</a>
+            <a href="@Url.Action("Index", "LoginBS")">Bác sĩ</a>
+            <a href="@Url.Action("Index", "LoginBN")">Đăng nhập</a>
+            <a class="book" href="@Url.Action("Create", "LICHKHAMs")">Đặt lịch khám</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    <div id="div-content">
+        @RenderBody()
+    </div>
+</body>
+</html>

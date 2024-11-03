@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Phongkham.Models.HOADON>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MedicalRecordLayout.cshtml";
+}
+
+<style>
+    .info .table .tsx td {
+        padding-right: 14rem;
+    }
+</style>
+<h1 class="heading">HÓA <span>ĐƠN</span></h1>
+<div class="info">
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TongTra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NGAY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BENHNHAN.TenBN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LICHKHAM.DichVu)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TongTra)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NGAY)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BENHNHAN.TenBN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LICHKHAM.DichVu)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.MaHD }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.MaHD }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.MaHD })
+                </td>
+            </tr>
+        }
+
+    </table>
+    </div>

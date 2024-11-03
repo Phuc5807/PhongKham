@@ -1,0 +1,67 @@
+﻿@model Phongkham.Models.DONTHUOC
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Masterlayout2.cshtml";
+}
+
+<script src="~/Scripts/script.js"></script>
+<link href="~/Content/book.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<style>
+
+    .field-validation-error {
+        color: red;
+    }
+
+    .tsx {
+        color: var(--black);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+
+    .ten {
+        color: var(--ligt-color);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+        text-decoration: none;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <div class="book" id="book">
+            <h1 class="heading">ĐƠN <span>THUỐC</span></h1>
+
+
+            <div class="row">
+                <div class="form">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <h3>Kê đơn thuốc</h3>
+                    @Html.DropDownListFor(model => model.MaBS, new SelectList(ViewBag.MaBS, "Value", "Text"), new { @class = "box", style = "field-validation-error" })<br />
+                    @Html.ValidationMessageFor(model => model.MaBS, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.DropDownListFor(model => model.MaBN, new SelectList(ViewBag.MaBN, "Value", "Text"), new { @class = "box", style = "field-validation-error" })<br />
+                    @Html.ValidationMessageFor(model => model.MaBN, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.DropDownListFor(model => model.MaThuoc, new SelectList(ViewBag.MaThuoc, "Value", "Text"), new { @class = "box", style = "field-validation-error" })<br />
+                    @Html.ValidationMessageFor(model => model.MaThuoc, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.EditorFor(model => model.SoLuongThuoc, new { htmlAttributes = new { @class = "box", @type = "number", @placeholder = "Liều lượng", style = "field-validation-error" } })<br />
+                    @Html.ValidationMessageFor(model => model.SoLuongThuoc, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.EditorFor(model => model.NgayKeDon, new { htmlAttributes = new { @class = "box", @type = "datetime-local", @placeholder = "Ngày", style = "field-validation-error" } })<br />
+                    @Html.ValidationMessageFor(model => model.NgayKeDon, "", new { @class = "text-danger" })
+                    <br />
+                    <input type="submit" value="Kê thuốc" class="btn">
+
+                </div>
+
+               
+            </div>
+
+        </div>
+    </div>
+}

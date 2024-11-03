@@ -1,0 +1,51 @@
+﻿@model Phongkham.Models.HOADON
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MedicalRecordLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>HOADON</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TongTra)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TongTra)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NGAY)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NGAY)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BENHNHAN.TenBN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BENHNHAN.TenBN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LICHKHAM.DichVu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LICHKHAM.DichVu)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaHD }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

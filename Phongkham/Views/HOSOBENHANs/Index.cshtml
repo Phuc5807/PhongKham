@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Phongkham.Models.HOSOBENHAN>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MedicalRecordLayout.cshtml";
+}
+
+<script src="~/Scripts/script.js"></script>
+<!--<link href="~/Content/KHOA.css" rel="stylesheet" />-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<style>
+    .tsx {
+        font-size: 1.7rem;
+        color: var(--ligt-color);
+        line-height: 1.8;
+        padding: 1rem 0;
+    }
+
+    .ten {
+        color: var(--black);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+
+    .danhmuc {
+        padding-right: 4rem;
+    }
+</style>
+<h1 class="heading">HỒ SƠ <span>BỆNH ÁN</span></h1>
+<p class="ten">
+
+</p>
+@Html.ActionLink("Tạo hồ sơ bệnh án", "Create")
+<table class="table">
+    <tr class="ten">
+        <th class="danhmuc">
+            Tên bệnh nhân
+        </th>
+        <th class="danhmuc">
+            Bác sĩ phụ trách
+        </th>
+        <th class="danhmuc">
+            Chẩn đoán
+        </th>
+        <th class="danhmuc">
+            Ghi chú
+        </th>
+        <th class="danhmuc">
+            Ngày khám
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr class="tsx">
+
+            <td class="danhmuc">
+                @Html.DisplayFor(modelItem => item.BENHNHAN.TenBN)
+            </td>
+            <td class="danhmuc">
+                @Html.DisplayFor(modelItem => item.BACSI.TenBS)
+            </td>
+            <td class="danhmuc">
+                @Html.DisplayFor(modelItem => item.ChanDoan)
+            </td>
+            <td class="danhmuc">
+                @Html.DisplayFor(modelItem => item.Note)
+            </td>
+            <td class="danhmuc">
+                @Html.DisplayFor(modelItem => item.NgayKham)
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.IDHoSo }) |
+                @Html.ActionLink("Details", "Details", new { id = item.IDHoSo }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.IDHoSo })
+            </td>
+        </tr>
+    }
+
+</table>

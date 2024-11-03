@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Phongkham.Models.HOADON>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<script src="~/Scripts/script.js"></script>
+<link href="~/Content/thanhtoan.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<style>
+    body {
+        font-size: 1.7rem;
+    }
+
+    .field-validation-error {
+        color: red;
+    }
+
+    .tsx {
+        color: var(--black);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+
+    .ten {
+        color: var(--ligt-color);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+        text-decoration: none;
+    }
+</style>
+@foreach (var item in Model)
+{
+    <div class="form-horizontal">
+        <div class="book" id="book">
+            <div class="row">
+                <div class="form">
+
+
+                    <div>
+                        TÊN BỆNH NHÂN:
+                        @Html.DisplayFor(model => item.BENHNHAN.TenBN)
+                    </div>
+
+                    <div>
+                        MÃ HÓA ĐƠN:
+                        @Html.DisplayFor(model => item.MaHD)
+                    </div>
+
+                    <div>
+                        MÃ LỊCH KHÁM:
+                        @Html.DisplayFor(model => item.IDKham)
+                    </div>
+
+                    <div>
+                        TỔNG TIỀN:
+                        @Html.DisplayFor(model => item.TongTra)
+                    </div>
+
+                    <div>
+                        @using (Html.BeginForm("PaymentWithPayPal", "ThanhToan", new { maHD = item.MaHD, tongTien = item.TongTra }, FormMethod.Post))
+                        {
+                            <input type="submit" value="Thanh toán" class="btn" />
+                        }
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

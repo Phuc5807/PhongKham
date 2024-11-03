@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Phongkham.Models.HOADON>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+
+<script src="~/Scripts/script.js"></script>
+<link href="~/Content/KHOA.css" rel="stylesheet" />
+<link href="~/Content/thanhtoan.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<style>
+    body {
+        font-size: 1.7rem;
+    }
+
+    .tsx {
+        font-size: 1.7rem;
+        color: var(--black);
+        line-height: 1.8;
+        padding: 1rem 0;
+    }
+
+    .ten {
+        color: var(--ligt-color);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+</style>
+
+
+
+<div class="container">
+    <div class="book" id="book">
+        <div class="row">
+            <div class="form">
+                @foreach (var item in Model)
+                {
+                    <div class="col-sm6 col-md-4 col-lg-3">
+                        <div>
+                            @Html.DisplayFor(model => item.MaBN)
+                            @Html.DisplayFor(model => item.IDKham)
+                            Giá:@Html.DisplayFor(model => item.TongTra)
+                            <a class="btn" href="@Url.Action("Index", "ThanhToan", new { id = item.MaHD })">Thanh toán</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+

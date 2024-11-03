@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Phongkham.Models.DONTHUOC>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Masterlayout2.cshtml";
+}
+
+<script src="~/Scripts/script.js"></script>
+<link href="~/Content/KHOA.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<style>
+    .tsx {
+        font-size: 1.7rem;
+        color: var(--ligt-color);
+        line-height: 1.8;
+        padding: 1rem 0;
+    }
+
+    .ten {
+        color: var(--black);
+        font-size: 2.5rem;
+    }
+
+    .danhmuc {
+        padding-right: 4rem;
+    }
+</style>
+
+<table class="table">
+    <tr class="ten">
+
+        <th class="danhmuc">
+            Bác sĩ kê đơn
+        </th>
+        <th class="danhmuc">
+            Bệnh nhân
+        </th>
+        <th class="danhmuc">
+            Thuốc
+        </th>
+        <th class="danhmuc">
+            Số lượng thuốc
+        </th>
+        <th class="danhmuc">
+            Ngày kê đơn
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr class="tsx">
+
+            <td class="danhmuc">
+                @Html.DisplayFor(modelItem => item.BACSI.TenBS)
+            </td>
+            <td class="danhmuc">
+                @Html.DisplayFor(modelItem => item.BENHNHAN.TenBN)
+            </td>
+            <td class="danhmuc">
+                @Html.DisplayFor(modelItem => item.THUOC.TenThuoc)
+            </td>
+            <td class="danhmuc">
+                @Html.DisplayFor(modelItem => item.SoLuongThuoc)
+            </td>
+            <td class="danhmuc">
+                @Html.DisplayFor(modelItem => item.NgayKeDon)
+            </td>
+            <td class="danhmuc">
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaDT }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaDT }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaDT })
+            </td>
+        </tr>
+    }
+
+</table>

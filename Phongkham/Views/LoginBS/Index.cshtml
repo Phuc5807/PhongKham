@@ -1,0 +1,140 @@
+﻿@model Phongkham.Models.BACSI
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+<script src="~/Scripts/script.js"></script>
+<link href="~/Content/dangkidangnhai.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<style>
+    #main-content {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .field-validation-error {
+        color: red;
+    }
+
+    .tsx {
+        color: var(--black);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+
+    .ten {
+        color: var(--ligt-color);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+        text-decoration: none;
+        width: 500px;
+        justify-content: center;
+    }
+
+    .formlogin table {
+        margin-left: 80px;
+    }
+
+    .centered-input {
+        display: flex;
+        justify-content: center;
+    }
+
+    .border-login {
+        width: 1000px;
+        height: 700px;
+        display: flex;
+        margin-top: 30px;
+        box-shadow: 5px 5px 5px 5px #888888;
+    }
+
+        .border-login .bgimglogin {
+            width: 500px;
+            height: 700px;
+            background-color: var(--green);
+            display: flex;
+            justify-content: center;
+        }
+
+            .border-login .bgimglogin .userauthentication {
+                margin-top: 300px;
+                margin-left: 50px;
+                margin-right: -60px;
+            }
+
+                .border-login .bgimglogin .userauthentication a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 19px;
+                    margin-right: 5px;
+                }
+
+                .border-login .bgimglogin .userauthentication .bglogin {
+                    margin-bottom: 7px;
+                }
+
+                    .border-login .bgimglogin .userauthentication .bglogin .login {
+                        width: 130px;
+                        height: 35px;
+                        background: #fff;
+                        border: transparent 1px solid;
+                        justify-content: center;
+                    }
+
+                        .border-login .bgimglogin .userauthentication .bglogin .login a {
+                            color: var(--green);
+                            display: flex;
+                            justify-content: center;
+                            padding: 7px 18px;
+                        }
+
+            .border-login .bgimglogin img {
+                width: 250px;
+                height: 350px;
+                margin-top: 100px;
+                margin-left: 10px;
+            }
+</style>
+<div id="main-content">
+    <!--<h4 class="tsx">Chế độ chuyên nghiệp</h4>-->
+
+    @using (Html.BeginForm("LoginBS", "LoginBS"))
+    {
+        <div class="border-login">
+            <div class="bgimglogin">
+                <img src="~/image/imglogin.png" />
+
+                <div class="userauthentication">
+                    <div class="bglogin">
+                        <div class="login">
+                            <a href="@Url.Action("Index", "LoginBS")">Đăng nhập</a>
+                        </div>
+                    </div>
+                    <div class="register">
+                        <a href="@Url.Action("Create", "BACSIs")">Đăng ký</a>
+                    </div>
+
+                </div>
+
+            </div>
+            @Html.AntiForgeryToken()
+            <div class="ten">
+                <div class="formlogin">
+                    <h1 class="heading">ĐĂNG <span>NHẬP</span></h1>
+
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "box", @type = "email", @placeholder = "Email", style = "field-validation-error" } })<br />
+                    @Html.ValidationMessageFor(model => model.Email)
+                    <br />
+                    @Html.EditorFor(model => model.PasswordBS, new { htmlAttributes = new { @class = "box", @type = "password", @placeholder = "Password", style = "field-validation-error" } })<br />
+                    @Html.ValidationMessageFor(model => model.PasswordBS)
+                    <br />
+                    <input type="submit" value="Đăng nhập" class="btn">
+                </div>
+
+            </div>
+        </div>
+    }
+
+</div>
+

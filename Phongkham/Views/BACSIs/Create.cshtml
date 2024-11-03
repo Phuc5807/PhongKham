@@ -1,0 +1,279 @@
+﻿@model Phongkham.Models.BACSI
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_MasterLayout2.cshtml";
+}
+<script src="~/Scripts/script.js"></script>
+<link href="~/Content/dangky.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<style>
+    #main-content {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    body {
+        padding: 80px;
+    }
+
+    .field-validation-error {
+        color: red;
+    }
+
+    .tsx {
+        color: var(--black);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+
+
+
+
+    .ten {
+        color: var(--ligt-color);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+        text-decoration: none;
+        width: 500px;
+        justify-content: center;
+    }
+
+    .formlogin table {
+        margin-left: 80px;
+    }
+
+    .centered-input {
+        display: flex;
+        justify-content: center;
+    }
+
+    .border-login {
+        width: 1000px;
+        height: 1040px;
+        display: flex;
+        margin-top: 30px;
+        box-shadow: 5px 5px 5px 5px #888888;
+    }
+
+        .border-login .bgimglogin {
+            width: 500px;
+            height: 1040px;
+            background-color: var(--green);
+            display: flex;
+            justify-content: center;
+        }
+
+            .border-login .bgimglogin .userauthentication {
+                margin-top: 300px;
+                margin-left: 50px;
+                margin-right: -60px;
+            }
+
+                .border-login .bgimglogin .userauthentication a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 19px;
+                    margin-right: 5px;
+                }
+
+                .border-login .bgimglogin .userauthentication .bglogin {
+                    margin-bottom: 7px;
+                }
+
+                    .border-login .bgimglogin .userauthentication .bglogin .login {
+                        width: 130px;
+                        height: 35px;
+                        background: #fff;
+                        border: transparent 1px solid;
+                        justify-content: center;
+                    }
+
+                        .border-login .bgimglogin .userauthentication .bglogin .login a {
+                            color: var(--green);
+                            display: flex;
+                            justify-content: center;
+                            padding: 7px 18px;
+                        }
+
+            .border-login .bgimglogin img {
+                width: 250px;
+                height: 350px;
+                margin-top: 100px;
+                margin-left: 10px;
+            }
+
+    .col-md-10 {
+        margin-bottom: 10px;
+    }
+
+    .dropdown-option-text {
+        filter: blur(1px);
+    }
+
+    .s6x {
+        display: flex;
+        font-size: 15px;
+        justify-content: center;
+    }
+
+        .s6x .radio {
+            margin-left: 15px;
+        }
+</style>
+
+
+
+
+
+
+<!--
+
+    <h4 class="tsx">Chế độ chuyên nghiệp</h4>
+<div class="ten">
+    @*
+        @Html.LabelFor(model => model.ConfirmPass)
+        <div>@Html.PasswordFor(model => model.ConfirmPass)</div>
+        <div>@Html.ValidationMessageFor(model => model.ConfirmPass)</div>
+    *@
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+
+        </div>
+    </div>
+</div>
+    -->
+
+
+
+<div id="main-content">
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+        <div class="border-login">
+            <div class="bgimglogin">
+                <img src="~/image/imglogin.png" />
+
+                <div class="userauthentication">
+                    <div class="bglogin">
+                        <div class="login">
+                            <a href="@Url.Action("Create", "BACSIs")">Đăng ký</a>
+                        </div>
+                    </div>
+                    <div class="register">
+                        <a href="@Url.Action("Index", "LoginBS")">Đăng nhập</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="ten">
+                <div class="formlogin">
+                    <h1 class="heading">ĐĂNG <span>KÝ</span></h1>
+
+                    <h3>Chế độ chuyên nghiệp</h3>
+                    @Html.EditorFor(model => model.TenBS, new { htmlAttributes = new { @class = "box", @type = "text", @placeholder = "Họ và tên", style = "field-validation-error" } })<br />
+                    @Html.ValidationMessageFor(model => model.TenBS, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.EditorFor(model => model.NamSinhBS, new { htmlAttributes = new { @class = "box", @type = "number", @placeholder = "Năm sinh", style = "field-validation-error" } })<br />
+                    @Html.ValidationMessageFor(model => model.NamSinhBS, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.DropDownListFor(model => model.GioiTinhBS, new SelectList(new List<SelectListItem>
+{
+new SelectListItem { Text = "Nam", Value = "true" },
+new SelectListItem { Text = "Nữ", Value = "false" }
+}, "Value", "Text"), new { @class = "box", style = "field-validation-error" })<br />
+                    @Html.ValidationMessageFor(model => model.GioiTinhBS, "", new { @class = "text-danger" })
+                    
+                    <br />
+                    @Html.EditorFor(model => model.DiaChiBS, new { htmlAttributes = new { @class = "box", @type = "text", @placeholder = "Địa chỉ", style = "field-validation-error" } })<br />
+                    @Html.ValidationMessageFor(model => model.DiaChiBS, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.EditorFor(model => model.CCCDBS, new { htmlAttributes = new { @class = "box", @type = "text", @placeholder = "CCCD", style = "field-validation-error" } })<br />
+                    @Html.ValidationMessageFor(model => model.CCCDBS, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.EditorFor(model => model.PhoneBS, new { htmlAttributes = new { @class = "box", @type = "text", @placeholder = "Số điện thoại", style = "field-validation-error" } })<br />
+                    @Html.ValidationMessageFor(model => model.PhoneBS, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "box", @type = "email", @placeholder = "Email", style = "field-validation-error" } })<br />
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.DropDownListFor(model => model.TenKhoa, new SelectList(ViewBag.TenKhoa, "Value", "Text"), new { @class = "box", style = "field-validation-error" })<br />
+                    @Html.ValidationMessageFor(model => model.TenKhoa, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.EditorFor(model => model.PasswordBS, new { htmlAttributes = new { @class = "box", @type = "password", @placeholder = "Password", style = "field-validation-error" } })<br />
+                    @Html.ValidationMessageFor(model => model.PasswordBS, "", new { @class = "text-danger" })
+                    <br />
+                    <input type="submit" value="Đăng ký" class="btn">
+
+
+
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+<script>
+    $(document).ready(function () {
+        // Check for unique email
+        $("#Email").change(function () {
+            var email = $(this).val();
+            $.post('@Url.Action("IsEmailUnique", "BACSIs")', { Email: email }, function (data) {
+                if (!data) {
+                    $("#Email").after('<span class="text-danger">Email này đã tồn tại.</span>');
+                } else {
+                    $(".text-danger").remove();
+                }
+            });
+        });
+
+        // Check for unique phone number
+        $("#PhoneBS").change(function () {
+            var phone = $(this).val();
+            $.post('@Url.Action("IsPhoneUnique", "BACSIs")', { PhoneBS: phone }, function (data) {
+                if (!data) {
+                    $("#PhoneBS").after('<span class="text-danger">Số điện thoại này đã tồn tại.</span>');
+                } else {
+                    $(".text-danger").remove();
+                }
+            });
+        });
+    });
+</script>
+
+<!--
+
+<script>
+    document.getElementById('submitButton').addEventListener('click', function () {
+        var form = document.querySelector('form');
+        var formData = new FormData(form);
+
+        fetch(form.action, {
+            method: form.method,
+            body: formData,
+            headers: {
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+            }
+        }).then(function (response) {
+            if (response.ok) {
+                window.history.back();
+            } else {
+                alert('Có lỗi xảy ra khi đăng ký!');
+            }
+        }).catch(function (error) {
+            alert('Có lỗi xảy ra khi đăng ký!');
+        });
+    });
+</script>
+    -->

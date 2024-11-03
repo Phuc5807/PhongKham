@@ -1,0 +1,119 @@
+﻿@model IEnumerable<Phongkham.Models.LICHKHAM>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MedicalRecordLayout.cshtml";
+}
+<script src="~/Scripts/script.js"></script>
+<!--<link href="~/Content/KHOA.css" rel="stylesheet" />-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<style>
+    .tsx {
+        font-size: 1.7rem;
+        color: var(--ligt-color);
+        line-height: 1.8;
+        padding: 1rem 0;
+    }
+
+    .ten {
+        color: var(--black);
+        font-size: 2.5rem;
+    }
+
+    .danhmuc {
+        padding-right: 4rem;
+    }
+
+    .table {
+        width: 1200px;
+        height: auto;
+    }
+
+    .table-container {
+        max-height: 100vh; /* Điều chỉnh chiều cao tối đa của bảng */
+        overflow-y: auto; /* Thêm thanh cuộn dọc nếu nội dung vượt quá chiều cao */
+    }
+
+
+
+    .search-container {
+        margin-bottom: 1rem;
+    }
+
+        .search-container input, .search-container select {
+            margin-right: 1rem;
+            padding: 0.5rem;
+            font-size: 1.2rem;
+        }
+</style>
+<h1 class="heading">LỊCH <span>KHÁM</span></h1>
+<div class="search-container">
+    <form method="get" action="@Url.Action("Index")">
+        <input type="text" name="doctorName" placeholder="Tên bác sĩ..." value="@Request["doctorName"]" />
+        <input type="date" name="startDate" value="@Request["startDate"]" />
+        <input type="date" name="endDate" value="@Request["endDate"]" />
+        <button type="submit">Tìm kiếm</button>
+    </form>
+</div>
+
+<div class="table-container">
+    <table class="table">
+        <tr class="ten">
+            <th class="danhmuc">
+                Mã lịch khám
+            </th>
+            <th class="danhmuc">
+                Ngày hẹn
+            </th>
+            <th class="danhmuc">
+                Dịch vụ
+            </th>
+            <th class="danhmuc">
+                Ghi chú (nếu có)
+            </th>
+            <th class="danhmuc">
+                Bác sĩ phụ trách
+            </th>
+            <th class="danhmuc">
+                Tên bệnh nhân
+            </th>
+            <th class="danhmuc">
+                Tình trạng
+            </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr class="tsx">
+                <td class="danhmuc">
+                    @Html.DisplayFor(modelItem => item.IDKham)
+                </td>
+                <td class="danhmuc">
+                    @Html.DisplayFor(modelItem => item.NgayHen)
+                </td>
+                <td class="danhmuc">
+                    @Html.DisplayFor(modelItem => item.DichVu)
+                </td>
+                <td class="danhmuc">
+                    @Html.DisplayFor(modelItem => item.NoteBN)
+                </td>
+                <td class="danhmuc">
+                    @Html.DisplayFor(modelItem => item.BACSI.TenBS)
+                </td>
+                <td class="danhmuc">
+                    @Html.DisplayFor(modelItem => item.BENHNHAN.TenBN)
+                </td>
+                <td class="danhmuc">
+                    @Html.DisplayFor(modelItem => item.TinhTrang)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.IDKham }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.IDKham }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.IDKham }) |
+                    @Html.ActionLink("Chấp nhận", "Accept", new { id = item.IDKham }) |
+                    @Html.ActionLink("Hủy", "Cancel", new { id = item.IDKham }) |
+                    @Html.ActionLink("Liên hệ", "", new { id = item.IDKham })
+                </td>
+            </tr>
+}
+    </table>
+</div>

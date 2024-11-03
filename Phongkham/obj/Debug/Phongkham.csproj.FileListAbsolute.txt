@@ -1,0 +1,470 @@
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.dll.config
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.pdb
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.exe
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.exe.config
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.rsp
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.exe
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.exe.config
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.rsp
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Managed.Core.targets
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.AppContext.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Collections.Immutable.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Console.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Globalization.Calendars.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.Compression.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.FileSystem.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Net.Http.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Net.Sockets.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Reflection.Metadata.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.ValueTuple.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XmlDocument.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XPath.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.exe
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.exe.config
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.rsp
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\VBCSCompiler.exe
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\VBCSCompiler.exe.config
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\Antlr3.Runtime.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Web.Infrastructure.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\Newtonsoft.Json.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Helpers.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Mvc.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Optimization.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Razor.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Deployment.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Razor.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\WebGrease.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Helpers.xml
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Mvc.xml
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Optimization.xml
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Razor.xml
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.xml
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Deployment.xml
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Razor.xml
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\Newtonsoft.Json.xml
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\Antlr3.Runtime.pdb
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.AssemblyReference.cache
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.CoreCompileInputs.cache
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.CopyComplete
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.pdb
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.SqlServer.dll
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.xml
+D:\lethanhvinh\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.SqlServer.xml
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.dll.config
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.pdb
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.exe
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.exe.config
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.rsp
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.exe
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.exe.config
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.rsp
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.AppContext.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Console.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.Compression.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Net.Http.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Net.Sockets.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.ValueTuple.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XPath.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.exe
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.exe.config
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.rsp
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\VBCSCompiler.exe
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Antlr3.Runtime.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.SqlServer.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Newtonsoft.Json.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Helpers.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Mvc.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Optimization.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Razor.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Razor.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\WebGrease.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.xml
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.SqlServer.xml
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Helpers.xml
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Mvc.xml
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Optimization.xml
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Razor.xml
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.xml
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Razor.xml
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Newtonsoft.Json.xml
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Antlr3.Runtime.pdb
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.AssemblyReference.cache
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.CoreCompileInputs.cache
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.CopyComplete
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.dll
+C:\Users\tranq\Documents\Zalo Received Files\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.pdb
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.dll.config
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.pdb
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.exe
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.exe.config
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.rsp
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.exe
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.exe.config
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.rsp
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.AppContext.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Console.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.Compression.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Net.Http.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Net.Sockets.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.ValueTuple.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XPath.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.exe
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.exe.config
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.rsp
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\VBCSCompiler.exe
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Antlr3.Runtime.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.SqlServer.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Newtonsoft.Json.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Helpers.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Mvc.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Optimization.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Razor.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Razor.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\WebGrease.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.SqlServer.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Helpers.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Mvc.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Optimization.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Razor.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Razor.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Newtonsoft.Json.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Antlr3.Runtime.pdb
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.AssemblyReference.cache
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.CoreCompileInputs.cache
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.CopyComplete
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.pdb
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.Security.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Owin.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.Security.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\tranq\OneDrive\Máy tính\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.dll.config
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.pdb
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.exe
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.exe.config
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.rsp
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.exe
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.exe.config
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.rsp
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Managed.Core.targets
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.AppContext.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Collections.Immutable.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Console.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Globalization.Calendars.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.Compression.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.FileSystem.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Net.Http.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Net.Sockets.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Reflection.Metadata.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.ValueTuple.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XmlDocument.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XPath.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.exe
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.exe.config
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.rsp
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\VBCSCompiler.exe
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\VBCSCompiler.exe.config
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Antlr3.Runtime.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.SqlServer.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.Identity.Core.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.Security.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Web.Infrastructure.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Newtonsoft.Json.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Owin.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Helpers.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Mvc.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Optimization.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Razor.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Deployment.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Razor.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\WebGrease.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.SqlServer.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.Identity.Core.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.Security.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Helpers.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Mvc.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Optimization.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Razor.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Deployment.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Razor.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Newtonsoft.Json.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Antlr3.Runtime.pdb
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.AssemblyReference.cache
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.CoreCompileInputs.cache
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.CopyComplete
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.pdb
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\PayPal.dll
+D:\lethanhvinh\doantuan\doan cnpm lt\doan cnpm lt\Phongkham\Phongkham\bin\PayPal.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.dll.config
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Phongkham.pdb
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.exe
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.exe.config
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csc.rsp
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.exe
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.exe.config
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\csi.rsp
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Managed.Core.targets
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.AppContext.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Collections.Immutable.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Console.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Globalization.Calendars.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.Compression.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.FileSystem.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Net.Http.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Net.Sockets.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Reflection.Metadata.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.ValueTuple.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XmlDocument.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XPath.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.exe
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.exe.config
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\vbc.rsp
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\VBCSCompiler.exe
+D:\doan cnpm lt\Phongkham\Phongkham\bin\roslyn\VBCSCompiler.exe.config
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Antlr3.Runtime.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.SqlServer.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.Identity.Core.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.Security.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Web.Infrastructure.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Newtonsoft.Json.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Owin.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\PayPal.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Helpers.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Mvc.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Optimization.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Razor.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Deployment.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Razor.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\WebGrease.dll
+D:\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\EntityFramework.SqlServer.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.Identity.Core.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.Owin.Security.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\PayPal.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Helpers.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Mvc.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Optimization.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.Razor.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Deployment.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\System.Web.WebPages.Razor.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Newtonsoft.Json.xml
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Antlr3.Runtime.pdb
+D:\doan cnpm lt\Phongkham\Phongkham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.AssemblyReference.cache
+D:\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.CoreCompileInputs.cache
+D:\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.csproj.Up2Date
+D:\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.dll
+D:\doan cnpm lt\Phongkham\Phongkham\obj\Debug\Phongkham.pdb

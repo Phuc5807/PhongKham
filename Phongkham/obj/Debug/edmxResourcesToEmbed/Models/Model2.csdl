@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="phongkham1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BACSI">
+    <Key>
+      <PropertyRef Name="MaBS" />
+    </Key>
+    <Property Name="TenBS" Type="String" MaxLength="60" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MaBS" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GioiTinhBS" Type="Boolean" Nullable="false" />
+    <Property Name="DiaChiBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PhoneBS" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="NamSinhBS" Type="Int32" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CCCDBS" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenKhoa" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PasswordBS" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="9" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="KHOA" Relationship="Self.FK__BACSI__TenKhoa__45F365D3" FromRole="BACSI" ToRole="KHOA" />
+    <NavigationProperty Name="DONTHUOCs" Relationship="Self.FK__DONTHUOC__MaBS__6477ECF3" FromRole="BACSI" ToRole="DONTHUOC" />
+    <NavigationProperty Name="HOSOBENHANs" Relationship="Self.FK__HOSOBENHAN__MaBS__5AEE82B9" FromRole="BACSI" ToRole="HOSOBENHAN" />
+    <NavigationProperty Name="LICHKHAMs" Relationship="Self.FK__LICHKHAM__MaBS__5629CD9C" FromRole="BACSI" ToRole="LICHKHAM" />
+    <NavigationProperty Name="XETNGHIEMs" Relationship="Self.FK__XETNGHIEM__MaBS__5EBF139D" FromRole="BACSI" ToRole="XETNGHIEM" />
+  </EntityType>
+  <EntityType Name="BAOHIEM">
+    <Key>
+      <PropertyRef Name="MaBH" />
+    </Key>
+    <Property Name="MaBH" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="LoaiBH" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NhaCungCap" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="BENHNHANs" Relationship="Self.FK__BENHNHAN__MaBH__5165187F" FromRole="BAOHIEM" ToRole="BENHNHAN" />
+  </EntityType>
+  <EntityType Name="BENHNHAN">
+    <Key>
+      <PropertyRef Name="MaBN" />
+    </Key>
+    <Property Name="NamSinh" Type="Int32" Nullable="false" />
+    <Property Name="TenBN" Type="String" MaxLength="60" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MaBN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GioiTinh" Type="Boolean" Nullable="false" />
+    <Property Name="DiaChi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CCCD" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenKhoa" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MaBH" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="PasswordBN" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="9" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="BAOHIEM" Relationship="Self.FK__BENHNHAN__MaBH__5165187F" FromRole="BENHNHAN" ToRole="BAOHIEM" />
+    <NavigationProperty Name="KHOA" Relationship="Self.FK__BENHNHAN__TenKho__52593CB8" FromRole="BENHNHAN" ToRole="KHOA" />
+    <NavigationProperty Name="DONTHUOCs" Relationship="Self.FK__DONTHUOC__MaBN__656C112C" FromRole="BENHNHAN" ToRole="DONTHUOC" />
+    <NavigationProperty Name="HOADONs" Relationship="Self.FK__HOADON__MaBN__619B8048" FromRole="BENHNHAN" ToRole="HOADON" />
+    <NavigationProperty Name="HOSOBENHANs" Relationship="Self.FK__HOSOBENHAN__MaBN__59FA5E80" FromRole="BENHNHAN" ToRole="HOSOBENHAN" />
+    <NavigationProperty Name="LICHKHAMs" Relationship="Self.FK__LICHKHAM__MaBN__571DF1D5" FromRole="BENHNHAN" ToRole="LICHKHAM" />
+    <NavigationProperty Name="XETNGHIEMs" Relationship="Self.FK__XETNGHIEM__MaBN__5DCAEF64" FromRole="BENHNHAN" ToRole="XETNGHIEM" />
+  </EntityType>
+  <EntityType Name="DONTHUOC">
+    <Key>
+      <PropertyRef Name="MaDT" />
+    </Key>
+    <Property Name="MaDT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SoLuongThuoc" Type="Int32" Nullable="false" />
+    <Property Name="NgayKeDon" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="MaBS" Type="Int32" />
+    <Property Name="MaBN" Type="Int32" />
+    <Property Name="MaThuoc" Type="Int32" />
+    <NavigationProperty Name="BACSI" Relationship="Self.FK__DONTHUOC__MaBS__6477ECF3" FromRole="DONTHUOC" ToRole="BACSI" />
+    <NavigationProperty Name="BENHNHAN" Relationship="Self.FK__DONTHUOC__MaBN__656C112C" FromRole="DONTHUOC" ToRole="BENHNHAN" />
+    <NavigationProperty Name="THUOC" Relationship="Self.FK__DONTHUOC__MaThuo__66603565" FromRole="DONTHUOC" ToRole="THUOC" />
+  </EntityType>
+  <EntityType Name="HOADON">
+    <Key>
+      <PropertyRef Name="MaHD" />
+    </Key>
+    <Property Name="MaHD" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TongTra" Type="Int32" Nullable="false" />
+    <Property Name="NGAY" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="MaBN" Type="Int32" Nullable="false" />
+    <Property Name="IDKham" Type="Int32" />
+    <NavigationProperty Name="BENHNHAN" Relationship="Self.FK__HOADON__MaBN__619B8048" FromRole="HOADON" ToRole="BENHNHAN" />
+    <NavigationProperty Name="LICHKHAM" Relationship="Self.FK_HOADON_LICHKHAM" FromRole="HOADON" ToRole="LICHKHAM" />
+  </EntityType>
+  <EntityType Name="HOSOBENHAN">
+    <Key>
+      <PropertyRef Name="IDHoSo" />
+    </Key>
+    <Property Name="ChanDoan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDHoSo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NgayKham" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="MaBN" Type="Int32" />
+    <Property Name="MaBS" Type="Int32" />
+    <NavigationProperty Name="BACSI" Relationship="Self.FK__HOSOBENHAN__MaBS__5AEE82B9" FromRole="HOSOBENHAN" ToRole="BACSI" />
+    <NavigationProperty Name="BENHNHAN" Relationship="Self.FK__HOSOBENHAN__MaBN__59FA5E80" FromRole="HOSOBENHAN" ToRole="BENHNHAN" />
+  </EntityType>
+  <EntityType Name="KHOA">
+    <Key>
+      <PropertyRef Name="TenKhoa" />
+    </Key>
+    <Property Name="MaKhoa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenKhoa" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="BACSIs" Relationship="Self.FK__BACSI__TenKhoa__45F365D3" FromRole="KHOA" ToRole="BACSI" />
+    <NavigationProperty Name="BENHNHANs" Relationship="Self.FK__BENHNHAN__TenKho__52593CB8" FromRole="KHOA" ToRole="BENHNHAN" />
+  </EntityType>
+  <EntityType Name="LICHKHAM">
+    <Key>
+      <PropertyRef Name="IDKham" />
+    </Key>
+    <Property Name="IDKham" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NgayHen" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DichVu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NoteBN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MaBS" Type="Int32" />
+    <Property Name="MaBN" Type="Int32" />
+    <Property Name="TinhTrang" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="BACSI" Relationship="Self.FK__LICHKHAM__MaBS__5629CD9C" FromRole="LICHKHAM" ToRole="BACSI" />
+    <NavigationProperty Name="BENHNHAN" Relationship="Self.FK__LICHKHAM__MaBN__571DF1D5" FromRole="LICHKHAM" ToRole="BENHNHAN" />
+    <NavigationProperty Name="HOADONs" Relationship="Self.FK_HOADON_LICHKHAM" FromRole="LICHKHAM" ToRole="HOADON" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="THUOC">
+    <Key>
+      <PropertyRef Name="MaThuoc" />
+    </Key>
+    <Property Name="MaThuoc" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenThuoc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SoLuong" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DONTHUOCs" Relationship="Self.FK__DONTHUOC__MaThuo__66603565" FromRole="THUOC" ToRole="DONTHUOC" />
+  </EntityType>
+  <EntityType Name="XETNGHIEM">
+    <Key>
+      <PropertyRef Name="MaXN" />
+    </Key>
+    <Property Name="MaXN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LoaiXN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ChanDoanXN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MaBN" Type="Int32" />
+    <Property Name="MaBS" Type="Int32" />
+    <NavigationProperty Name="BACSI" Relationship="Self.FK__XETNGHIEM__MaBS__5EBF139D" FromRole="XETNGHIEM" ToRole="BACSI" />
+    <NavigationProperty Name="BENHNHAN" Relationship="Self.FK__XETNGHIEM__MaBN__5DCAEF64" FromRole="XETNGHIEM" ToRole="BENHNHAN" />
+  </EntityType>
+  <Association Name="FK__BACSI__TenKhoa__45F365D3">
+    <End Role="KHOA" Type="Self.KHOA" Multiplicity="0..1" />
+    <End Role="BACSI" Type="Self.BACSI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHOA">
+        <PropertyRef Name="TenKhoa" />
+      </Principal>
+      <Dependent Role="BACSI">
+        <PropertyRef Name="TenKhoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DONTHUOC__MaBS__6477ECF3">
+    <End Role="BACSI" Type="Self.BACSI" Multiplicity="0..1" />
+    <End Role="DONTHUOC" Type="Self.DONTHUOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BACSI">
+        <PropertyRef Name="MaBS" />
+      </Principal>
+      <Dependent Role="DONTHUOC">
+        <PropertyRef Name="MaBS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HOSOBENHAN__MaBS__5AEE82B9">
+    <End Role="BACSI" Type="Self.BACSI" Multiplicity="0..1" />
+    <End Role="HOSOBENHAN" Type="Self.HOSOBENHAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BACSI">
+        <PropertyRef Name="MaBS" />
+      </Principal>
+      <Dependent Role="HOSOBENHAN">
+        <PropertyRef Name="MaBS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LICHKHAM__MaBS__5629CD9C">
+    <End Role="BACSI" Type="Self.BACSI" Multiplicity="0..1" />
+    <End Role="LICHKHAM" Type="Self.LICHKHAM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BACSI">
+        <PropertyRef Name="MaBS" />
+      </Principal>
+      <Dependent Role="LICHKHAM">
+        <PropertyRef Name="MaBS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__XETNGHIEM__MaBS__5EBF139D">
+    <End Role="BACSI" Type="Self.BACSI" Multiplicity="0..1" />
+    <End Role="XETNGHIEM" Type="Self.XETNGHIEM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BACSI">
+        <PropertyRef Name="MaBS" />
+      </Principal>
+      <Dependent Role="XETNGHIEM">
+        <PropertyRef Name="MaBS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BENHNHAN__MaBH__5165187F">
+    <End Role="BAOHIEM" Type="Self.BAOHIEM" Multiplicity="0..1" />
+    <End Role="BENHNHAN" Type="Self.BENHNHAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BAOHIEM">
+        <PropertyRef Name="MaBH" />
+      </Principal>
+      <Dependent Role="BENHNHAN">
+        <PropertyRef Name="MaBH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BENHNHAN__TenKho__52593CB8">
+    <End Role="KHOA" Type="Self.KHOA" Multiplicity="0..1" />
+    <End Role="BENHNHAN" Type="Self.BENHNHAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHOA">
+        <PropertyRef Name="TenKhoa" />
+      </Principal>
+      <Dependent Role="BENHNHAN">
+        <PropertyRef Name="TenKhoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DONTHUOC__MaBN__656C112C">
+    <End Role="BENHNHAN" Type="Self.BENHNHAN" Multiplicity="0..1" />
+    <End Role="DONTHUOC" Type="Self.DONTHUOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BENHNHAN">
+        <PropertyRef Name="MaBN" />
+      </Principal>
+      <Dependent Role="DONTHUOC">
+        <PropertyRef Name="MaBN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HOADON__MaBN__619B8048">
+    <End Role="BENHNHAN" Type="Self.BENHNHAN" Multiplicity="1" />
+    <End Role="HOADON" Type="Self.HOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BENHNHAN">
+        <PropertyRef Name="MaBN" />
+      </Principal>
+      <Dependent Role="HOADON">
+        <PropertyRef Name="MaBN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HOSOBENHAN__MaBN__59FA5E80">
+    <End Role="BENHNHAN" Type="Self.BENHNHAN" Multiplicity="0..1" />
+    <End Role="HOSOBENHAN" Type="Self.HOSOBENHAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BENHNHAN">
+        <PropertyRef Name="MaBN" />
+      </Principal>
+      <Dependent Role="HOSOBENHAN">
+        <PropertyRef Name="MaBN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LICHKHAM__MaBN__571DF1D5">
+    <End Role="BENHNHAN" Type="Self.BENHNHAN" Multiplicity="0..1" />
+    <End Role="LICHKHAM" Type="Self.LICHKHAM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BENHNHAN">
+        <PropertyRef Name="MaBN" />
+      </Principal>
+      <Dependent Role="LICHKHAM">
+        <PropertyRef Name="MaBN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__XETNGHIEM__MaBN__5DCAEF64">
+    <End Role="BENHNHAN" Type="Self.BENHNHAN" Multiplicity="0..1" />
+    <End Role="XETNGHIEM" Type="Self.XETNGHIEM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BENHNHAN">
+        <PropertyRef Name="MaBN" />
+      </Principal>
+      <Dependent Role="XETNGHIEM">
+        <PropertyRef Name="MaBN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DONTHUOC__MaThuo__66603565">
+    <End Role="THUOC" Type="Self.THUOC" Multiplicity="0..1" />
+    <End Role="DONTHUOC" Type="Self.DONTHUOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="THUOC">
+        <PropertyRef Name="MaThuoc" />
+      </Principal>
+      <Dependent Role="DONTHUOC">
+        <PropertyRef Name="MaThuoc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HOADON_LICHKHAM">
+    <End Role="LICHKHAM" Type="Self.LICHKHAM" Multiplicity="0..1" />
+    <End Role="HOADON" Type="Self.HOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LICHKHAM">
+        <PropertyRef Name="IDKham" />
+      </Principal>
+      <Dependent Role="HOADON">
+        <PropertyRef Name="IDKham" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="phongkham1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BACSIs" EntityType="Self.BACSI" />
+    <EntitySet Name="BAOHIEMs" EntityType="Self.BAOHIEM" />
+    <EntitySet Name="BENHNHANs" EntityType="Self.BENHNHAN" />
+    <EntitySet Name="DONTHUOCs" EntityType="Self.DONTHUOC" />
+    <EntitySet Name="HOADONs" EntityType="Self.HOADON" />
+    <EntitySet Name="HOSOBENHANs" EntityType="Self.HOSOBENHAN" />
+    <EntitySet Name="KHOAs" EntityType="Self.KHOA" />
+    <EntitySet Name="LICHKHAMs" EntityType="Self.LICHKHAM" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="THUOCs" EntityType="Self.THUOC" />
+    <EntitySet Name="XETNGHIEMs" EntityType="Self.XETNGHIEM" />
+    <AssociationSet Name="FK__BACSI__TenKhoa__45F365D3" Association="Self.FK__BACSI__TenKhoa__45F365D3">
+      <End Role="KHOA" EntitySet="KHOAs" />
+      <End Role="BACSI" EntitySet="BACSIs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DONTHUOC__MaBS__6477ECF3" Association="Self.FK__DONTHUOC__MaBS__6477ECF3">
+      <End Role="BACSI" EntitySet="BACSIs" />
+      <End Role="DONTHUOC" EntitySet="DONTHUOCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HOSOBENHAN__MaBS__5AEE82B9" Association="Self.FK__HOSOBENHAN__MaBS__5AEE82B9">
+      <End Role="BACSI" EntitySet="BACSIs" />
+      <End Role="HOSOBENHAN" EntitySet="HOSOBENHANs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LICHKHAM__MaBS__5629CD9C" Association="Self.FK__LICHKHAM__MaBS__5629CD9C">
+      <End Role="BACSI" EntitySet="BACSIs" />
+      <End Role="LICHKHAM" EntitySet="LICHKHAMs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__XETNGHIEM__MaBS__5EBF139D" Association="Self.FK__XETNGHIEM__MaBS__5EBF139D">
+      <End Role="BACSI" EntitySet="BACSIs" />
+      <End Role="XETNGHIEM" EntitySet="XETNGHIEMs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BENHNHAN__MaBH__5165187F" Association="Self.FK__BENHNHAN__MaBH__5165187F">
+      <End Role="BAOHIEM" EntitySet="BAOHIEMs" />
+      <End Role="BENHNHAN" EntitySet="BENHNHANs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BENHNHAN__TenKho__52593CB8" Association="Self.FK__BENHNHAN__TenKho__52593CB8">
+      <End Role="KHOA" EntitySet="KHOAs" />
+      <End Role="BENHNHAN" EntitySet="BENHNHANs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DONTHUOC__MaBN__656C112C" Association="Self.FK__DONTHUOC__MaBN__656C112C">
+      <End Role="BENHNHAN" EntitySet="BENHNHANs" />
+      <End Role="DONTHUOC" EntitySet="DONTHUOCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HOADON__MaBN__619B8048" Association="Self.FK__HOADON__MaBN__619B8048">
+      <End Role="BENHNHAN" EntitySet="BENHNHANs" />
+      <End Role="HOADON" EntitySet="HOADONs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HOSOBENHAN__MaBN__59FA5E80" Association="Self.FK__HOSOBENHAN__MaBN__59FA5E80">
+      <End Role="BENHNHAN" EntitySet="BENHNHANs" />
+      <End Role="HOSOBENHAN" EntitySet="HOSOBENHANs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LICHKHAM__MaBN__571DF1D5" Association="Self.FK__LICHKHAM__MaBN__571DF1D5">
+      <End Role="BENHNHAN" EntitySet="BENHNHANs" />
+      <End Role="LICHKHAM" EntitySet="LICHKHAMs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__XETNGHIEM__MaBN__5DCAEF64" Association="Self.FK__XETNGHIEM__MaBN__5DCAEF64">
+      <End Role="BENHNHAN" EntitySet="BENHNHANs" />
+      <End Role="XETNGHIEM" EntitySet="XETNGHIEMs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DONTHUOC__MaThuo__66603565" Association="Self.FK__DONTHUOC__MaThuo__66603565">
+      <End Role="THUOC" EntitySet="THUOCs" />
+      <End Role="DONTHUOC" EntitySet="DONTHUOCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HOADON_LICHKHAM" Association="Self.FK_HOADON_LICHKHAM">
+      <End Role="LICHKHAM" EntitySet="LICHKHAMs" />
+      <End Role="HOADON" EntitySet="HOADONs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

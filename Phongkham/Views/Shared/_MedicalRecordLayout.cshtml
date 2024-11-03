@@ -1,0 +1,153 @@
+﻿
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="~/Content/mystyle.css" rel="stylesheet" />
+   
+
+    <style>
+        body .Medical-record {
+            display: flex;
+            flex-direction: row;
+        }
+
+        header {
+            background-color: var(--green);
+            width: 250px;
+            height: 100vh;
+            position: relative;
+            
+        }
+        .Medical-record header .Medical-management a
+        {
+            font-size:15px;
+            display:block;
+            margin-top:10px;
+            border-bottom:black 0.5px solid;
+        }
+        .content .inform
+        {
+            width:100px;
+            height:auto;
+            background-color:antiquewhite;
+            justify-content:center;
+        }
+        .content .header2 {
+            width: auto;
+            height: auto;
+            padding:5px 10px 7px 10px;
+            background: var(--green);
+            margin-left: auto;
+            margin-bottom: 50px;
+            display:none;
+            flex-direction:column;
+            position:fixed;
+        }
+        
+        .content .header2.show {
+            display: flex; 
+
+        }
+        .content .header2 a
+        {
+            text-decoration:none;
+            color:black;
+            font-size:15px;
+        }
+        .content .main-content 
+        {
+            margin-top:130px;
+        }
+
+        .ten {
+        }
+
+            .ten .margin-logo {
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .ten a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 30px;
+            }
+            .size-6
+            {
+                width:10px;
+                height:auto;
+                cursor:pointer;
+            }
+            .size-6.rotate {
+            transform: rotate(180deg);
+            }
+    </style>
+</head>
+<body>
+    <div class="Medical-record">
+        <header>
+            <div class="ten">
+                <div class="margin-logo">
+                    <a href="@Url.Action("CN", "Home")" class="logo"><i class="fas fa-heartbeat"></i>VTPG</a>
+                </div>
+                <div class="Medical-management">
+                    <a href="@Url.Action("Index", "BACSIs")" class="">Danh sách bác sĩ</a>
+                    <a href="@Url.Action("Index", "BENHNHANs")" class="">Danh sách bệnh nhân</a>
+                    <a href="@Url.Action("Index", "LICHKHAMs")" class="">Lịch khám</a>
+                    <a href="@Url.Action("Index", "KHOAs")" class="">Khoa</a>
+                    <a href="@Url.Action("Index", "THUOCs")" class="">Thuốc</a>
+                    <a href="@Url.Action("Index", "HOADONs")" class="">Hóa đơn</a>
+
+                    @*@if (User.IsInRole("Admin"))
+        {
+        <div class="Medical-management">
+            <a href="@Url.Action("Index", "BACSIs")" class="">Danh sách bác sĩ</a>
+            <a href="@Url.Action("Index", "BENHNHANs")" class="">Danh sách bệnh nhân</a>
+            <a href="@Url.Action("Index", "LICHKHAMs")" class="">Lịch khám</a>
+            <a href="@Url.Action("Index", "KHOAs")" class="">Khoa</a>
+        </div>
+        }*@
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="inform">
+                @*@if(ViewBag.Data!=null)
+                { 
+                <span style="font-size:5px;color:black;">@ViewBag.Data</span>
+                }*@
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <span style="color:#fff">Bác sĩ: @User.Identity.Name </span>
+                }
+                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" id="toggle-svg" onclick="toggleLinks()">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                </svg>
+
+                <div class="header2" id="header2">
+                    <a href="@Url.Action("CN", "Home")">Thông tin cá nhân</a>
+                    <a href="@Url.Action("CN", "Home")">Trang chủ</a>
+                    <a href="@Url.Action("LogoutBS", "LoginBS")">Đăng xuất</a>
+
+                </div>
+            </div>
+
+            <div class="main-content">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleLinks() {
+            var header2 = document.getElementById('header2');
+            var svg =document.getElementById('toggle-svg');
+            header2.classList.toggle('show');
+            svg.classList.toggle('rotate');
+        }
+    </script>
+</body>
+</html>

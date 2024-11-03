@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Phongkham.Models.KHOA>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MedicalRecordLayout.cshtml";
+}
+<script src="~/Scripts/script.js"></script>
+<!--<link href="~/Content/KHOA.css" rel="stylesheet" />-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<style>
+    .info .table .tsx td {
+        padding-right: 14rem;
+    }
+</style>
+<h1 class="heading">CHUYÊN <span>KHOA</span></h1>
+<div class="info">
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr class="ten">
+            <th>
+                <h3>Tên khoa</h3>
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr class="tsx">
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenKhoa)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.TenKhoa }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.TenKhoa }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.TenKhoa })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

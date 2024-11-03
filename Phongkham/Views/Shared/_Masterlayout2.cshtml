@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="~/Content/mystyle.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <a href="@Url.Action("CN", "Home")" class="logo"><i class="fas fa-heartbeat"></i>VTPG</a>
+        <nav class="navbar">
+            <div class="Medical-management">
+                
+                <a href="@Url.Action("CN", "Home")">Trang chủ</a>
+                @if (ViewBag.TenKhoa != null && ViewBag.TenKhoa.ToString() == "Admin")
+                {
+                <a href="@Url.Action("Medicalrecord", "BACSIs")">Thông tin bệnh án</a>
+                }
+                @if (ViewBag.TenKhoa != null && ViewBag.TenKhoa.ToString() == "Admin")
+                {
+                <a href="@Url.Action("Index", "LICHKHAMs")">Lịch khám</a>
+                }
+                else
+                { 
+                    <a href="@Url.Action("IndexBS", "LICHKHAMs")">Lịch khám</a>
+                }
+                <a href="@Url.Action("Index", "XETNGHIEMs")">Xét nghiệm</a>
+                <a href="@Url.Action("Index", "HOSOBENHANs")">Hồ sơ bệnh án</a>
+                <a href="@Url.Action("Create", "DONTHUOCs")">Kê thuốc</a>
+                <a href="@Url.Action("LogoutBS", "LoginBS")">Đăng xuất</a>
+            </div>
+
+            <div class="format-hello">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <span style="color:#fff">Bác sĩ: @User.Identity.Name </span>
+                }
+                @*
+            @if (Session["Email"] == null)
+            {
+
+            }
+            else
+            {
+            <span style="color:#fff">Bác sĩ: @Session["Email"] </span>
+            }
+                *@
+
+            </div>
+
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    <div id="div-content">
+        @RenderBody()
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿@model Phongkham.Models.HOADON
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_MedicalRecordLayout.cshtml";
+}
+
+<script src="~/Scripts/script.js"></script>
+<link href="~/Content/don.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<style>
+
+    .field-validation-error {
+        color: red;
+    }
+
+    .tsx {
+        color: var(--black);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+
+    .ten {
+        color: var(--ligt-color);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+        text-decoration: none;
+    }
+
+    body {
+        padding: 0;
+    }
+</style>
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <div class="book" id="book">
+            <h1 class="heading">HÓA <span>ĐƠN</span></h1>
+
+
+            <div class="row">
+                <div class="form">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.EditorFor(model => model.IDKham, new { htmlAttributes = new { @class = "box", @type = "text", @placeholder = "Mã lịch khám", style = "field-validation-error" } })
+                    @Html.ValidationMessageFor(model => model.IDKham, "", new { @class = "text-danger" })
+                    <br/>
+                    @Html.DropDownListFor(model => model.MaBN, new SelectList(ViewBag.MaBN, "Value", "Text"), new { @class = "box", style = "field-validation-error" })<br />
+                    @Html.ValidationMessageFor(model => model.MaBN, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.EditorFor(model => model.TongTra, new { htmlAttributes = new { @class = "box", @type = "text", @placeholder = "Tổng trả", style = "field-validation-error" } })
+                    @Html.ValidationMessageFor(model => model.TongTra, "", new { @class = "text-danger" })
+                    <br />
+                    @Html.EditorFor(model => model.NGAY, new { htmlAttributes = new { @class = "box", @type = "datetime-local", @placeholder = "Ngày lập", style = "field-validation-error" } })<br />
+                    @Html.ValidationMessageFor(model => model.NGAY, "", new { @class = "text-danger" })
+                    <br />
+
+                    <input type="submit" value="Lập hóa đơn" class="btn">
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+}
+
+
+

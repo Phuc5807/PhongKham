@@ -1,0 +1,101 @@
+﻿@model Phongkham.Models.BACSI
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+@{ ViewBag.Title = "Delete BACSI"; }
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>BACSI</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GioiTinhBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GioiTinhBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiaChiBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiaChiBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NamSinhBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NamSinhBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CCCDBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CCCDBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PasswordBS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PasswordBS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KHOA.TenKhoa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KHOA.TenKhoa)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
+<div>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+</div>

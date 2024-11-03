@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Phongkham.Models.BACSI>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MedicalRecordLayout.cshtml";
+}
+
+<h2>Danh sách bác sĩ</h2>
+
+<p>
+    @Html.ActionLink("Thêm bác sĩ", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TenBS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GioiTinhBS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DiaChiBS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneBS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NamSinhBS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CCCDBS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PasswordBS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KHOA.TenKhoa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model=> model.Role)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenBS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GioiTinhBS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DiaChiBS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneBS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NamSinhBS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CCCDBS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PasswordBS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KHOA.TenKhoa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Role)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaBS }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaBS }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaBS })
+        </td>
+    </tr>
+}
+
+</table>

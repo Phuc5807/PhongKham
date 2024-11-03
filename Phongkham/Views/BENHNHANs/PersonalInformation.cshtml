@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Phongkham.Models.BENHNHAN>
+
+@{
+    ViewBag.Title = "PersonalInformation";
+    Layout = "~/Views/Shared/PatientLayout.cshtml";
+}
+
+<h2>PersonalInformation</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TenBN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NamSinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GioiTinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DiaChi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CCCD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BAOHIEM.LoaiBH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KHOA.TenKhoa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PasswordBN)
+        </th>
+    </tr>
+
+
+  
+</table>

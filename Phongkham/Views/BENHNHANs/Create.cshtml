@@ -1,0 +1,239 @@
+﻿@model Phongkham.Models.BENHNHAN
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Masterlayout.cshtml";
+}
+<script src="~/Scripts/script.js"></script>
+<link href="~/Content/dangky.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<style>
+    #main-content {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .tsx {
+        font-size: 1.7rem;
+        color: var(--black);
+        line-height: 1.8;
+        padding: 1rem 0;
+    }
+
+    .ten {
+        color: var(--ligt-color);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+        text-decoration: none;
+        width: 500px;
+        height: 1040px;
+        justify-content: center;
+    }
+
+
+
+
+
+    .formlogin table {
+        margin-left: 80px;
+    }
+
+    .centered-input {
+        display: flex;
+        justify-content: center;
+    }
+
+    .border-login {
+        width: 1000px;
+        height: 1040px;
+        display: flex;
+        margin-top: 30px;
+        box-shadow: 5px 5px 5px 5px #888888;
+    }
+
+        .border-login .bgimglogin {
+            width: 500px;
+            height: 1040px;
+            background-color: var(--green);
+            display: flex;
+            justify-content: center;
+        }
+
+            .border-login .bgimglogin .userauthentication {
+                margin-top: 300px;
+                margin-left: 50px;
+                margin-right: -60px;
+            }
+
+                .border-login .bgimglogin .userauthentication a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 19px;
+                    margin-right: 5px;
+                }
+
+                .border-login .bgimglogin .userauthentication .bglogin {
+                    margin-bottom: 7px;
+                }
+
+                    .border-login .bgimglogin .userauthentication .bglogin .login {
+                        width: 130px;
+                        height: 35px;
+                        background: #fff;
+                        border: transparent 1px solid;
+                        justify-content: center;
+                    }
+
+                        .border-login .bgimglogin .userauthentication .bglogin .login a {
+                            color: var(--green);
+                            display: flex;
+                            justify-content: center;
+                            padding: 7px 18px;
+                        }
+
+            .border-login .bgimglogin img {
+                width: 250px;
+                height: 350px;
+                margin-top: 100px;
+                margin-left: 10px;
+            }
+            .s6x
+            {
+                display:flex;
+                margin-left:170px;
+                margin-bottom:10px;
+            }
+            .btndangky
+            {
+                margin-top:10px;
+                border:transparent 2px solid;
+                background:var(--green);
+                padding:10px;width:120px;background:var(--green);color:#fff;
+            }
+            .form-control
+            {
+                width:300px;height:20px;
+            }
+            .form-group .radio label
+            {
+                margin-left:20px;
+                font-size:15px;
+            }
+            .form-group  label
+            {
+                font-size:15px;
+            }
+</style>
+
+<div id="main-content">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div >
+                <div class="border-login">
+                    <div class="bgimglogin">
+                        <img src="~/image/imglogin.png" />
+
+                        <div class="userauthentication">
+                            <div class="bglogin">
+                                <div class="login">
+                                    <a href="@Url.Action("Create", "BENHNHANs")">Đăng ký</a>
+                                </div>
+                            </div>
+
+                            <div class="register">
+                                <a href="@Url.Action("Index", "LoginBN")">Đăng nhập</a>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="ten">
+                        <h1 class="heading"><span>ĐĂNG </span>KÝ</h1>
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <h3>Đăng ký thông tin bệnh nhân</h3>
+                        @Html.EditorFor(model => model.TenBN, new { htmlAttributes = new { @class = "box", @type = "text", @placeholder = "Họ và tên", style = "field-validation-error" } })<br />
+                        @Html.ValidationMessageFor(model => model.TenBN, "", new { @class = "text-danger" })
+                        <br />
+                        @Html.EditorFor(model => model.NamSinh, new { htmlAttributes = new { @class = "box", @type = "number", @placeholder = "Năm sinh", style = "field-validation-error" } })<br />
+                        @Html.ValidationMessageFor(model => model.NamSinh, "", new { @class = "text-danger" })
+                        <br />
+                        @Html.DropDownListFor(model => model.GioiTinh, new SelectList(new List<SelectListItem>
+                        {
+                        new SelectListItem { Text = "Nam", Value = "true" },
+                        new SelectListItem { Text = "Nữ", Value = "false" }
+                        }, "Value", "Text"), new { @class = "box", style = "field-validation-error" })
+                        @Html.ValidationMessageFor(model => model.GioiTinh, "", new { @class = "text-danger" })
+                        <br />
+                        <br />
+                        @Html.EditorFor(model => model.DiaChi, new { htmlAttributes = new { @class = "box", @type = "text", @placeholder = "Địa chỉ", style = "field-validation-error" } })<br />
+                        @Html.ValidationMessageFor(model => model.DiaChi, "", new { @class = "text-danger" })
+                        <br />
+                        @Html.EditorFor(model => model.CCCD, new { htmlAttributes = new { @class = "box", @type = "text", @placeholder = "CCCD", style = "field-validation-error" } })<br />
+                        @Html.ValidationMessageFor(model => model.CCCD, "", new { @class = "text-danger" })
+                        <br />
+                        @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "box", @type = "text", @placeholder = "Số điện thoại", style = "field-validation-error" } })<br />
+                        @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                        <br />
+                        @Html.DropDownListFor(model => model.TenKhoa, new SelectList(ViewBag.TenKhoa, "Value", "Text"), new { @class = "box", style = "field-validation-error" })<br />
+                        @Html.ValidationMessageFor(model => model.TenKhoa, "", new { @class = "text-danger" })
+                        <br />
+                        @Html.EditorFor(model => model.MaBH, new { htmlAttributes = new { @class = "box", @type = "text", @placeholder = "Mã số BHYT", style = "field-validation-error" } })<br />
+                        @Html.ValidationMessageFor(model => model.MaBH, "", new { @class = "text-danger" })
+                        <br />
+                        @Html.EditorFor(model => model.PasswordBN, new { htmlAttributes = new { @class = "box", @type = "password", @placeholder = "Password", style = "field-validation-error" } })<br />
+                        @Html.ValidationMessageFor(model => model.PasswordBN, "", new { @class = "text-danger" })
+                        <br />
+                        <input type="submit" value="Tiếp tục" class="btn"><br />
+
+
+
+                        @*<div class="form-group">
+        <label>Chuyên bệnh</label>
+        <div class="col-md-10">
+        @Html.DropDownList("TenKhoa", null, htmlAttributes: new { @class = "form-control required-field" })
+        @Html.ValidationMessageFor(model => model.TenKhoa, "", new { @class = "text-danger" })
+        </div>
+        </div>*@
+
+                        @*
+
+                        *@
+
+                    </div>
+                    
+                </div>
+                
+
+            </div>
+            
+            @*<div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>*@
+        </div>
+    }
+</div>
+
+   @*<script>
+
+    function validateForm() {
+        //let isValid = true;
+        //document.querySelectorAll('.required-field').forEach(function (field) {
+        //    if (!field.value.trim()) {
+        //        alert('Vui lòng nhập thông tin vào trường ' + field.closest('.form-group').querySelector('label').textContent.trim());
+        //        field.focus();
+        //        isValid = false;
+        //        return false; // break loop
+        //    }
+        //});
+        //return isValid;
+    }
+    </script>*@
+

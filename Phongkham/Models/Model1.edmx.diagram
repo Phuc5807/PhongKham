@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="73bec584ebe1488c877068eedeac2931" Name="Diagram1" ZoomLevel="99">
+        <EntityTypeShape EntityType="phongkhamModel.BACSI" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="phongkhamModel.BAOHIEM" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="phongkhamModel.BENHNHAN" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="phongkhamModel.DONTHUOC" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="phongkhamModel.HOADON" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="phongkhamModel.HOSOBENHAN" Width="1.5" PointX="8.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="phongkhamModel.KHOA" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="phongkhamModel.LICHKHAM" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="phongkhamModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="phongkhamModel.THUOC" Width="1.5" PointX="3" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="phongkhamModel.XETNGHIEM" Width="1.5" PointX="5.25" PointY="13.125" IsExpanded="true" />
+        <AssociationConnector Association="phongkhamModel.FK__BACSI__TenKhoa__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="phongkhamModel.FK__DONTHUOC__MaBS__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="phongkhamModel.FK__HOSOBENHAN__MaBS__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="phongkhamModel.FK__LICHKHAM__MaBS__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="phongkhamModel.FK__XETNGHIEM__MaBS__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="phongkhamModel.FK__BENHNHAN__MaBH__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="phongkhamModel.FK__BENHNHAN__TenKho__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="phongkhamModel.FK__DONTHUOC__MaBN__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="phongkhamModel.FK__HOADON__MaBN__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="phongkhamModel.FK__HOSOBENHAN__MaBN__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="phongkhamModel.FK__LICHKHAM__MaBN__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="phongkhamModel.FK__XETNGHIEM__MaBN__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="phongkhamModel.FK__DONTHUOC__MaThuo__6EF57B66" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

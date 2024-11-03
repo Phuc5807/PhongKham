@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="~/Content/mystyle.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <a href="@Url.Action("CN", "Home")" class="logo"><i class="fas fa-heartbeat"></i>VTPG</a>
+        <nav class="navbar">
+            <a href="@Url.Action("BN", "Home")">Trang chủ</a>
+            <a href="@Url.Action("PersonalInformation", "BENHNHANs")">Thông tin cá nhân</a>
+            @*
+        <a href="@Url.Action("Medicalrecord", "BACSIs")">Thông tin bệnh án</a>
+        <a href="@Url.Action("Index", "LICHKHAMs")">Lịch khám</a>
+        <a href="@Url.Action("Index", "XETNGHIEMs")">Xét nghiệm</a>
+        <a href="@Url.Action("Index", "HOSOBENHANs")">Hồ sơ bệnh án</a>
+            *@
+            <a href="@Url.Action("Index1", "LICHKHAMs")">Xem lịch khám</a>
+            <a href="@Url.Action("Create1", "LICHKHAMs")">Đặt lịch</a>
+            <a href="@Url.Action("LogoutBN", "LoginBN")">Đăng xuất</a>
+            <div class="format-hello">
+                @if (Session["TenBN"] == null)
+                {
+
+                }
+                else
+                {
+                    <span style="color:#fff">Bệnh nhân: @Session["TenBN"] </span>
+                }
+            </div>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    <div id="div-content">
+        @RenderBody()
+    </div>
+</body>
+</html>

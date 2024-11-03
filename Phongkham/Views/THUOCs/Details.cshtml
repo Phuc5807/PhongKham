@@ -1,0 +1,35 @@
+﻿@model Phongkham.Models.THUOC
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MedicalRecordLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>THUOC</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenThuoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenThuoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoLuong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoLuong)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaThuoc }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

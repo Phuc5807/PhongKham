@@ -1,0 +1,43 @@
+﻿@model Phongkham.Models.KHOA
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+<script src="~/Scripts/script.js"></script>
+<link href="~/Content/KHOA.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<style>
+    .tsx {
+        font-size: 1.7rem;
+        color: var(--ligt-color);
+        line-height: 1.8;
+        padding: 1rem 0;
+    }
+
+    .ten {
+        color: var(--black);
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+</style>
+<div>
+    <h1 class="heading">CHUYÊN <span>KHOA</span></h1>
+    <hr />
+
+    <dl class="dl-horizontal">
+        <dt class="ten">
+            <h3>Tên khoa</h3>
+        </dt>
+        <div class="tsx">
+            <dd>
+                @Html.DisplayFor(model => model.TenKhoa)
+            </dd>
+        </div>
+    </dl>
+</div>
+
+<p class="tsx">
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TenKhoa }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
